@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="style.css">
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container" role="document">
+    <div class="box-container" role="main">
+      <header class="profil">
+        <div class="profil-img" role="img">
+          <img src="assets/images/avatar-me.jpg" alt="assets/images/avatar-jessica.jpeg">
+        </div>
+        <div class="profil-text" role="textbox">
+          <h1 class="name">Emmanuel Moolongawi</h1>
+          <p class="location">Kinshasa, Democratic Republic of Congo</p>
+          <p class="desc">"Front-end developer and avid reader."</p>
+        </div>
+      </header>
+      <div class="link-container" role="listbox">
+        <button class="link-item" role="listitem"><a href="https://github.com/EMLzmile">GitHub</a></button>
+        <button class="link-item" role="listitem"><a href="https://frontendmentor.io/profil/EMLzmile">Frontend Mentor</a></button>
+        <button class="link-item" role="listitem"><a href="https://t.me/EMLzmile">Telegram</a></button>
+        <button class="link-item" role="listitem"><a href="https://m.facebook.com/emmanuel.moolongawi">Facebook</a></button>
+        <button class="link-item" role="listitem"><a href="https://instagram.com/emmanumoolongawi">Instagram</a></button>
+      </div>
+    </div>
   </div>
 </body>
+
 </html>
