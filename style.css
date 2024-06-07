@@ -38,6 +38,7 @@ p {
 }
 
 .box-container {
+  max-width: 345px;
   background: var(--darkgrey);
   padding: 20px;
   border-radius: 20px;
